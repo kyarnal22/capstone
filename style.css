@@ -1,0 +1,309 @@
+body {
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: #F4F4F4;
+    color: #505050;
+  }
+  
+  .full h1 {
+    margin-top: 32px;  
+  }
+  
+  /*Header and Nav*/
+  header {
+    height: 64px;
+    display: flex;
+    position: fixed;
+    z-index: 2!important;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .colmar {
+    font-size: 1.5rem;
+    font-family: 'Biryani';
+    font-weight: 800;
+  }
+  
+  .academy{
+    color: #A0A0A0;
+    font-size: 1.5rem;
+    font-family: 'Biryani';
+    font-weight: 400;
+  }
+  
+  .logo {
+    margin-left: 24px;
+  }
+  
+  .logo img {
+    height: 28px;
+  }
+  
+  .links ul li {
+    margin-right: 24px;
+    display: inline;
+    font-size: 1rem;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  
+  /*Main Section 1*/
+  .full .landing-one {
+    display: flex;
+    background-color: #A0A0A0;
+  
+  }
+
+  .landing-one {
+    display: flex;
+  }
+
+  .landing-one-img {
+    width: 60%;
+  }
+  
+  .landing-one-img img {
+    width: 100%;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+  }
+  
+  .landing-one-heading {
+    float: right;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    padding-left: 24px;
+    margin-left: 24px;
+    text-align: left;
+    font-weight: 500;
+    width: 40%;
+    color: black;
+    opacity: 0.7;
+  }
+
+  .landing-one-heading h2 {
+      font-size: 120%;
+  }
+  
+  
+  .start {
+    color: #F4F4F4;
+    background-color: #505050;
+    width: 100%;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 2rem;
+    width: 80%;
+    float: left;
+  }
+
+  .start :hover {
+    color: black;
+  }
+  
+  /*Main Section 2*/
+  .second {
+    display: flex;
+    width: 100%;
+  }
+  
+  .info-left {
+    margin-left: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .info-left img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+    width: 58%;
+  }
+  
+  .img-description {
+    margin-top: 5px;
+    width: 60%;
+    line-height: 1.5;
+    margin-right: 32px;
+    padding-right: 32px;
+  }
+
+  .img-description span {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-size: 80%;
+  }
+
+  
+  .info-right {
+    display: inline-flex;
+    margin-top: 32px;
+    margin-left: 16px;
+    flex-direction: column;
+    width: 40%;
+    color: black;
+  }
+  
+  #side {
+    margin-left: -41%;
+  }
+  
+  .sidebar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .info-right :hover {
+    background-color: #A0A0A0;
+  }
+  
+  .sidebar img {
+    height: auto;
+    max-height: 250px;
+    max-width: 40%;
+    align-items: vertical;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top; 16px;
+  }
+  
+  .sidebar-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 65%;
+    line-height: 1.5;
+    margin-left: 16px;
+    font-size: 65%;
+    opacity: 0.7;
+    padding-top: 16px;
+  }
+  
+  .sidebar-info h1, .sidebar-info h4 {
+    margin-bottom: 8px;
+  }
+
+  .sidebar-info h4 {
+    font-size: 120%;
+  }
+
+  .sidebar-info h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  #sidebar-border1 {
+    border-left: 1px #A0A0A0 solid;
+    height: 80%;
+  }
+  
+  #sidebar-border2 {
+    border-left: 1px #A0A0A0 solid;
+    height: 100%;
+  }
+  
+  #sidebar-border3 {
+    border-left: 1px #A0A0A0 solid;
+    height: 100%;
+    
+  }
+
+  .sidebar a {
+    text-decoration: none;
+  }
+  
+  
+  /*Main Section 3*/
+  .learning {
+    background-color: #A0A0A0;
+  }
+  
+  .learning h1 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+  
+  .learning-box img {
+    width: 100%;
+  }
+  
+  .learning-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+  
+  .course {
+    width: 30%;
+    margin-left: 32px;
+    background-color: white;
+    margin-bottom: 32px;
+    text-align: left;
+    
+  }
+  
+  .course h3, .course p {
+    padding-left: 16px;
+  }
+  
+  /*Main Section 4*/
+  .thesis {
+    display: flex;
+  }
+  
+  #thesis {
+    text-align: center;
+  }
+  
+  .thesis-left {
+    width: 80%;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: left;
+  }
+
+  .thesis-left .img-description {
+    width: 100%;
+  }
+  
+  .thesis-left video {
+    margin-top: 32px;
+    width: 100%;
+  }
+  
+  /*footer*/
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    font-size: 1.8rem;
+    border-top: 1px #A0A0A0 solid;
+    color: #A0A0A0;
+    line-height: 0.001;
+  }
+  
+  .copyright {
+    margin-left: 24px;
+    font-size: 70%;
+  }
+  
+  .terms {
+    display: inline;
+    margin-right: 24px;
+    font-size: 70%;
+    word-spacing: 24px;
+  }
